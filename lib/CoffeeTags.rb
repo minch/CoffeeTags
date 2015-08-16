@@ -81,7 +81,7 @@ module Coffeetags
       optparse.parse! args
 
       options[:files]  = args.to_a
-      options[:files] += Dir['./**/*.coffee', './**/Cakefile'] if options[:recur]
+      options[:files] += Dir['./**/*.coffee', './**/Cakefile', './**/*.coffee.erb'] if options[:recur]
 
       options
     end
