@@ -38,7 +38,7 @@ else
 endif
 
 let g:tagbar_type_coffee = {
-      \   'ctagsbin' : 'coffeetags',
+      \   'ctagsbin' : 'bundle exec coffeetags',
       \   'ctagsargs' : s:raw_args,
       \   'kinds' : [
       \     'f:functions',
