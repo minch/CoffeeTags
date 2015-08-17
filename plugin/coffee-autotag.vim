@@ -82,5 +82,5 @@ endfunction
 
 augroup CoffeeAutoTag
   au!
-  autocmd BufWritePost,FileWritePost *.coffee call CoffeeAutoTag()
+  autocmd BufWritePost,FileWritePost *.coffee,*.coffee.erb call CoffeeAutoTag()
 augroup END
